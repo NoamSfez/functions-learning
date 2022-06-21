@@ -1,0 +1,31 @@
+//basics HTTPS API
+GET http://localhost:5001/functions-learning-77e34/us-central1/api
+
+###
+POST http://localhost:5001/functions-learning-77e34/us-central1/api
+Content-Type: application/json
+
+{"name" : "Noam Sfez",
+"university":"BGU"}
+
+###
+DELETE http://localhost:5001/functions-learning-77e34/us-central1/api
+
+###
+PUT http://localhost:5001/functions-learning-77e34/us-central1/api
+
+
+// ___________________________ExpressJS API___________________________
+
+###
+GET http://localhost:5001/functions-learning-77e34/us-central1/api_express
+###
+
+GET http://localhost:5001/functions-learning-77e34/us-central1/api_express/user/10
+
+###
+POST http://localhost:5001/functions-learning-77e34/us-central1/api_express/user
+Content-Type: application/json
+
+{"name" : "Noam Sfez",
+"university":"BGU"}
